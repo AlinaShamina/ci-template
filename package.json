@@ -1,0 +1,32 @@
+{
+  "name": "ci-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "jest --coverage",
+  "lint": "eslint ."
+},
+"type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaShamina/ci-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaShamina/ci-template/issues"
+  },
+  "homepage": "https://github.com/AlinaShamina/ci-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "eslint": "^9.36.0",
+    "jest": "^30.1.3"
+  },
+  "dependencies": {
+    "core-js": "^3.45.1"
+  }
+}
